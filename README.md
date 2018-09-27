@@ -1,6 +1,8 @@
 # lgViewMove
 view移动动画
+
 How to
+
 To get a Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
