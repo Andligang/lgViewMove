@@ -30,5 +30,5 @@ Step 2. Add the dependency
 	AnimatorPath mPath = new AnimatorPath();
 	mPath.moveTo(0, 0);//移动到点
 	mPath.lineTo(200, 160);//直线移动
-	mPath.cubicTo(300, 300, 400, 400, 600, 200);//曲线移动
+	mPath.cubicTo(300, 300, 400, 400, 600, 200);//贝塞尔曲线移动
 	mPath.startAnimation(view, 2000);//view， 时长
