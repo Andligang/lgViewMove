@@ -25,7 +25,7 @@ Step 2. Add the dependency
 	        implementation 'com.github.Andligang:lgViewMove:v1.0'
 	}
 	
-使用说明
+# 使用说明
 
 	AnimatorPath mPath = new AnimatorPath();
 	mPath.moveTo(0, 0);//移动到点
