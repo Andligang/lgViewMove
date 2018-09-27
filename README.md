@@ -22,3 +22,11 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.Andligang:lgViewMove:v1.0'
 	}
+	
+使用说明
+
+	AnimatorPath mPath = new AnimatorPath();
+	mPath.moveTo(0, 0);//移动到点
+	mPath.lineTo(200, 160);//直线移动
+	mPath.cubicTo(300, 300, 400, 400, 600, 200);//曲线移动
+	mPath.startAnimation(v, 2000);//view， 时长
